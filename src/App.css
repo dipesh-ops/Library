@@ -1,0 +1,25 @@
+.primaryColor{
+    color: #1c2938;
+}
+
+.secondaryColor{
+    color: #616c6c;
+}
+
+.greenColor{
+    color: #32735a;
+}
+
+.btn{
+    color: #FFFEFA;
+    background-color: #1c2938;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@theme {
+  --color-brand: #32735a;
+  --color-brand-light: #e8f1ed;
+  --color-brand-track: #e5e7eb;
+}
