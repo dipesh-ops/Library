@@ -14,7 +14,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
   DialogTrigger,
   DialogFooter, 
 } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button"
 
 import {
   DropdownMenu,
@@ -29,7 +28,8 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu.jsx"
+import { Button } from '@base-ui/react';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -95,7 +95,7 @@ const Navbar = () => {
 {/* For small devices */}
        <div className="flex md:hidden">
          <DropdownMenu>
-      <DropdownMenuTrigger render={<Button variant="outline"><RxHamburgerMenu /></Button>} />
+      <DropdownMenuTrigger render={<div variant="outline"><RxHamburgerMenu /></div>} />
       <DropdownMenuContent className="w-80" align="start">
         <DropdownMenuGroup>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -116,7 +116,7 @@ const Navbar = () => {
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            {user ? <Button className="!text-white" onClick={logout}>Log out</Button> : <Button className="!text-white" onClick={()=> navigate("/login")}>Log in</Button>}
+            {user ? <Button className="!text-white bg-black rounded-lg p-2" onClick={logout}>Log out</Button> : <Button className="!text-white bg-black rounded-lg p-2" onClick={()=> navigate("/login")}>Log in</Button>}
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>
