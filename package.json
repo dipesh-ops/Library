@@ -36,5 +36,7 @@
     "oxlint": "^1.79.0",
     "vite": "^8.2.2"
   },
-  "trustedDependencies": ["@firebase/util"]
+  "allowScripts": {
+  "@firebase/util": true
+}
 }
