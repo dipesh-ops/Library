@@ -14,7 +14,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
   DialogTrigger,
   DialogFooter, 
 } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button.jsx"
 
 import {
   DropdownMenu,
@@ -29,7 +29,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu.jsx"
 
 const Navbar = () => {
     const navigate = useNavigate();

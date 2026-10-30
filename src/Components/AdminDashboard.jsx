@@ -19,7 +19,7 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/components/ui/drawer";
+} from "@/components/ui/drawer.jsx";
 import { Button } from "@base-ui/react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { toast } from "react-toastify";
