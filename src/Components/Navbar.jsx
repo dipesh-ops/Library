@@ -13,7 +13,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
   DialogTitle,
   DialogTrigger,
   DialogFooter, 
-} from "@/components/ui/dialog.jsx"
+} from "@/Components/ui/dialog.jsx"
 
 import { Button } from '@base-ui/react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from './ui/dropdown-menu.jsx';
